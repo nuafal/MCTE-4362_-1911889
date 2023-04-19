@@ -2,10 +2,10 @@
 
 ## Contents
 
-- [Introduction to AGV vs AMR](#introduction---agv-vs-amr)
-- [History of AGV and AMR](#history-of-agvamr)
-- [Applications of AGV/AMR](#applications-of-agvamr)
-- [Main components of the AGV/AMR](#main-components-of-the-vehicle)
+- [Introduction to AGV vs AMR](#introduction-to-agv-vs-amr)
+- [History of AGV and AMR](#history-of-agv)
+- [Applications of AGV/AMR](#applications-of-agv-and-amr)
+- [Main components of the AGV/AMR robots](#main-components-of-the-robot)
   - [Body design](#body-design)
   - [Locomotion](#Locomotion)
   - [Navigation](#navigation)
@@ -141,7 +141,7 @@ These robots are smaller and more versatile than AGVs and can be used in a wide 
 
 ### Locomotion
 
-~ refers to their ability to move from one location to another. Below are the types of locomotion used in AGVs/AMRs. All of the robots moves using electrical motors.
+**Automated Guided Gehicles (AGVs)** and **Autonomous Mobile Robots (AMRs)** incorporate diverse types of locomotion, including wheel-based, tracked, magnetic, and Propeller. Wheel-based configurations are widely employed, either as two-wheel or four-wheel setups. Tracked systems, similar to those utilized on bulldozers and tanks, enhance traction and stability on uneven terrain. Differential drive systems utilize two or more wheels that can be independently controlled to steer the vehicle.  The deployment of these different locomotion systems enables AGVs and AMRs to navigate through various environments, both indoors and outdoors, while fulfilling a broad range of tasks.
 
 <table>
   <tr>
@@ -255,7 +255,7 @@ Some *AMRs* also utilize **vision-based** navigation, in which cameras and senso
     </td>
     <td>
     <a href = "https://www.researchgate.net/publication/296693077_An_accurate_and_efficient_navigation_system_for_omnidirectional_robots_in_industrial_environments/figures?lo=1">Kuka</a>
-    <img src = "https://www.researchgate.net/publication/296693077/figure/fig11/AS:961324616003608@1606209057682/The-KUKA-Moiros-robot-using-our-system-for-accurate-omnidirectional-navigation-during-a.jpg">
+    <img src = "https://www.researchgate.net/publication/318489581/figure/fig14/AS:668657445244932@1536431766185/DLR-omniRob-KUKA-omniRob-extended-with-various-sensors-IT-components-and-human-robot.png">
     </td>
   </tr>
 </table>
@@ -313,6 +313,53 @@ Some *AMRs* also utilize **vision-based** navigation, in which cameras and senso
 
 | Data Collection Method | Description | Examples |
 | ---------------------- | --------------------------------------------------------------------- | ----------- |
-| Lidar | Uses laser topology to scan the environment and create a 3D map | ![Velodyne Lidar](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/AGV%20vs%20AMR/Sources/smart-city-privacy-2.gif)
+| Lidar | Uses laser topology to scan the environment and create a 3D map | Velodyne Lidar ![Velodyne Lidar](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/AGV%20vs%20AMR/Sources/smart-city-privacy-2.gif)|
+| Camera | Captures visual information of the environment | Intel RealSense ![Intel RealSense](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/AGV%20vs%20AMR/Sources/imu.gif)|
+| Inertial Measurement Unit (IMU) | Measures acceleration, rotation, and magnetic fields to determine orientation and position | Bosch SensorTech IMU ![Bosch SensorTech IMU](https://www.electronics-lab.com/wp-content/uploads/2019/08/2019-02-27_14-16-40.png)|
+| Ultrasonic Sensor | Uses high frequency sound waves to detect objects and measure distances | MaxBotix MB1030 ![MaxBotix MB1030](https://ce8dc832c.cloudimg.io/v7/_cdn_/0F/EC/00/00/0/52976_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a6c1f24cba456074c68e25079366c66024e7921a)|
+| Radar (Radio Detection and Ranging) | Uses radio waves to detect objects and measure distances | NXP RADAR ![NXP RADAR](https://www.nxp.com/assets/images/en/dev-board-image/TEF8102-BOARD.png)|
 
-  
+### Data Transmission
+
+ #### Wired Transmission
+ - When data is transmitted through a physical connection, it is usually achieved by using Ethernet cables. 
+ - This method provides a stable and reliable connection that ensures fast and secure data transfer. 
+ - The Ethernet cables are plugged into designated ports on the AGV or AMR, and the data is transmitted through the cable to the receiving device. Ethernet cables come in various lengths and types, including Cat5, Cat6, and fiber optic cables. 
+ - This method of data transmission is commonly used in industrial settings where a wired connection is preferred due to its reliability and security.
+
+ #### Wireless transmission
+ - Wireless communication technologies have revolutionized the way data is transmitted in the field of AGV and AMR. Wi-Fi, Bluetooth, and RFID are commonly used to transmit data wirelessly between AGVs or AMRs and other devices or systems, such as control centers or warehouses. 
+ - Wi-Fi is a popular technology used for wireless communication due to its high-speed data transmission capabilities, while Bluetooth is typically used for short-range communication between devices. 
+ - RFID, on the other hand, allows for the identification and tracking of objects through the use of radio waves. 
+ - All these wireless technologies have greatly improved the efficiency and flexibility of AGV and AMR systems, enabling real-time data transfer and monitoring, without the need for physical connections.
+ 
+ ![Wireless](https://d3i71xaburhd42.cloudfront.net/36995e0129c2c31e99f8d0d74534ffc21df670d8/3-Figure4-1.png)
+
+ #### Cellular
+ - When data is transmitted through cellular networks, it can be accessed from virtually anywhere with network coverage, providing users with the ability to remotely monitor and control the AGV or AMR system. 
+ - This can include receiving alerts and notifications, adjusting settings, and viewing real-time data, all from a central location. 
+ - Cellular networks provide a reliable and secure method for data transmission, ensuring that critical information is transmitted and received in a timely and accurate manner. 
+ - Additionally, cellular networks often offer advanced security features such as encryption and authentication, providing an additional layer of protection for sensitive data. 
+ - Overall, the use of cellular networks for data transmission in AGV and AMR systems enables efficient and effective remote monitoring and control, improving system performance and reducing downtime.
+
+ ![Cellular](https://www.aiki-tcs.co.jp/site-en/img/remote-ctl/remote-ctl_sec2_img02.png)
+
+ #### Cloud
+ - 	Data collected by **AGVs** and **AMRs** can be transmitted to cloud-based servers through various communication methods, such as Wi-Fi, cellular, or Ethernet connections. 
+ - This allows for immediate and continuous data analysis, which can be used to improve the overall efficiency and performance of the robotic systems. 
+ - In addition, cloud-based servers provide remote access to data, allowing for remote monitoring, control, and troubleshooting of the AGVs and AMRs. This can be particularly useful for large-scale operations where multiple robots are used in various locations, as it enables centralized management and coordination of the entire fleet. 
+ - Furthermore, cloud-based servers can store historical data, which can be used for trend analysis and predictive maintenance, allowing for proactive maintenance and reducing downtime.
+
+ ![Cloud](https://www.jscape.com/hs-fs/hubfs/transfer%20data%20from%20amazon%20s3%20to%20azure%20files.png?width=2344&name=transfer%20data%20from%20amazon%20s3%20to%20azure%20files.png)
+
+### Power Management
+
+| Power Management | Description | Examples | Docking Type |
+| ---------------- | ------------------------------------------ | ----------------------------------------------------------| ---------------------------------------------------------- |
+| Wired | AGVs use a physical cable to receive power and signal data | Daifuku SPHERE AGVs ![Daifuku SPHERE AGVs](https://www.daifuku.com/solution/assets/images/intralogistics/products/vehicle/agv/fork-agv.jpg)|  -|
+| Inductive charging | Uses an electromagnetic field to transfer energy between two objects, such as a charging pad on the floor and a receiver on the AGV or AMR | Kollmorgen AGVs ![Kollmorgen](https://i.ytimg.com/vi/T0MMbAlE93s/maxresdefault.jpg) | Docking Station |
+| Battery Swapping | AGVs and AMRs use a removable battery that can be replaced when the charge is low | [AGVR](https://www.youtube.com/watch?v=hsZ8hpZtARI) ![AGVR](https://i.ytimg.com/vi/hsZ8hpZtARI/hqdefault.jpg)| Battery Swap Station |
+| Solar | AGVs and AMRs equipped with solar panels use solar energy to power their batteries or motor directly | [ABB](https://new.abb.com/news/detail/63868/smart-charging-infrastructure-for-singapore-ports-automated-guided-vehicles) AGVs ![ABB](https://resources.news.e.abb.com/images/2020/6/15/0/pic_2_emobility_solution.jpg) | - |
+| Fuel Cells | Use hydrogen fuel cells to generate electricity and power the AGV or AMR| [GAUSSSIN AGV H2](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffuelcellsworks.com%2Fnews%2Fgaussin-presents-worlds-first-hydrogen-powered-fuel-cell-automated-guided-vehicles-agv-h2-for-ports-application%2F&psig=AOvVaw2trlk1ZTZGzaK65G2QoGmI&ust=1681964937182000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCLD3luqNtf4CFQAAAAAdAAAAABAE)  ![GAUSSIN](https://img.fuelcellsworks.com/wp-content/uploads/2022/03/image001-2022-03-16T140706.514.png) | |
+
+
