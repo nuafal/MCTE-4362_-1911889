@@ -313,6 +313,6 @@ Some *AMRs* also utilize **vision-based** navigation, in which cameras and senso
 
 | Data Collection Method | Description | Examples |
 | ---------------------- | --------------------------------------------------------------------- | ----------- |
-| Lidar | Uses laser topology to scan the environment and create a 3D map | ![Velodyne Lidar]("https://www.google.com/url?sa=i&url=https%3A%2F%2Fvelodynelidar.com%2Fblog%2Flidar-technology-safeguards-privacy-in-smart-city-applications%2F&psig=AOvVaw00zhMHpD0f-Pj0IOSZI8J_&ust=1681958745993000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMD48-H2tP4CFQAAAAAdAAAAABAE")
+| Lidar | Uses laser topology to scan the environment and create a 3D map | ![Velodyne Lidar](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/AGV%20vs%20AMR/Sources/smart-city-privacy-2.gif)
 
   
