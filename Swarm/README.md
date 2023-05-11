@@ -28,7 +28,7 @@
 - Despite being in its infancy, swarm robotics has shown promising results and has the potential to revolutionise the field of robotics.
 
 
-![Swarm robotics domain](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/Swarm%20design.png)
+![Swarm robotics domain](https://www.frontiersin.org/files/Articles/512421/frobt-07-00036-HTML-r1/image_m/frobt-07-00036-g001.jpg)
 
 ## History[^1]
 
@@ -48,7 +48,7 @@
 
 Usually small in size and simple in design, and low in cost. The body design is inspired by insects. Take a look at some examples below:
 
-![swarm robotics insects example](https://imgur.com/a/tHUvUU8)
+![Swarm robotics domain](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/Swarm%20design.png)
 
 In swarm robotics, quantity is more important than quality. The more robots you have, the more tasks you can perform. The optimal size de  pends on the task/mission.
 
@@ -176,10 +176,10 @@ The most common technologies for sending messages from robot to robot in swarms 
 Decentralized control architecture, where each robot operates independently and communicates with its neighbors to coordinate their actions. [^4]
 | Control Architecture  | Description | Picture |
 | ------------- | ------------- | --------- |
-| Leader-Follower  | A small number of robots are designated as leaders and the rest of the robots follow their movement. The leaders can be pre-programmed or chosen based on their sensing or communication capabilities. | ![swarm robotics insects example](https://imgur.com/QLH9JlW) |
+| Leader-Follower  | A small number of robots are designated as leaders and the rest of the robots follow their movement. The leaders can be pre-programmed or chosen based on their sensing or communication capabilities. | ![swarm robotics insects example](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/download.jpg) |
 | Stigmergy  | This architecture relies on indirect communication among robots through the environment. Each robot modifies the environment in some way (e.g., leaving a trail of pheromones) and other robots can detect and respond to these modifications. | ![swarm robotics insects example](https://ars.els-cdn.com/content/image/1-s2.0-S0921889019301538-gr11.jpg)| 
-| Distributed Consensus  | Robots communicate with their neighbors to reach a consensus on a particular behavior or decision. This can be done through direct communication or by observing the behavior of neighboring robots. | ![swarm robotics insects example](https://imgur.com/ia2FkEf)|
-| Self-Organization  | This architecture involves the emergence of a collective behavior from the interactions among individual robots without any centralized control. This can be achieved through simple rules or algorithms that govern the behavior of each robot, such as the famous "Boids" algorithm for simulating flocking behavior. | ![swarm robotics insects example](https://imgur.com/RAA1bvR)|
+| Distributed Consensus  | Robots communicate with their neighbors to reach a consensus on a particular behavior or decision. This can be done through direct communication or by observing the behavior of neighboring robots. | ![swarm robotics insects example](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/symmetry-13-00680-g001%20(1).png)|
+| Self-Organization  | This architecture involves the emergence of a collective behavior from the interactions among individual robots without any centralized control. This can be achieved through simple rules or algorithms that govern the behavior of each robot, such as the famous "Boids" algorithm for simulating flocking behavior. | ![swarm robotics insects example](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/download%20(1).jpg)|
 
 
 ## Swarming Robot Power Management
@@ -219,7 +219,7 @@ Swarming robots require a robust and automated method of charging and reprogramm
 - A smart power module should be designed to enable easy contact engagement with the mating contacts for the charging station.
 - The power module should also have another set of contacts for bi-directional high-speed communication with the charger host computer for proper and safe charging.
 
-![swarm robotics insects example](https://d3i71xaburhd42.cloudfront.net/b6afc53242432ff2e5589ce01f37d31881126134/2-Figure3-1.png)
+![swarm robotics insects example](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/2-Figure3-1.png)
 
 [^1]: https://roboticsbiz.com/advantages-and-history-of-swarm-robotics-sr-explained/
 [^2]: https://www.frontiersin.org/articles/10.3389/frobt.2017.00055/full
