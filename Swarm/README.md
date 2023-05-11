@@ -28,7 +28,7 @@
 - Despite being in its infancy, swarm robotics has shown promising results and has the potential to revolutionise the field of robotics.
 
 
-!(Swarm robotics domain)[https://www.frontiersin.org/files/Articles/512421/frobt-07-00036-HTML-r1/image_m/frobt-07-00036-g001.jpg](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/Swarm%20design.png]
+![Swarm robotics domain](https://github.com/nuafal/MCTE-4362_-1911889/blob/main/Swarm/Picture/Swarm%20design.png)
 
 ## History[^1]
 
